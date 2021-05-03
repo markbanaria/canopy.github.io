@@ -529,6 +529,14 @@ h3 {
   background-color: black;
 }
 
+.bg-gray-2 {
+  background-color: #fafafa;
+}
+
+.bg-gray-3 {
+  background-color: #efefef;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -581,4 +589,18 @@ h3 {
   background-color: #2F80ED;
   height: 8px;
   width: 112px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+#simple-and-fast {
+  height: 248px;
+  margin-bottom: -126px;
+}
+
+#keep-your-comp {
+  height: 221px;
+  margin-bottom: -126px;
 }
