@@ -18,21 +18,37 @@
 </head>
   
 <body>
-  <section id="hero-banner" class="bg-primary-1 mb64">
+  <section id="hero-banner" class="mb64" style="background-image: url('img/hero-bg.svg'); background-size: cover;">
     <div class="container">
-      <div class="row pt24 pb16">
+      <div class="row pt32 pb16">
         <div class="col-12" id="navbar">
           <div class="d-flex flex-row">
             <div class="flex-fill">
               <img src="img/canopy-logo-white.svg">
             </div>
             <div id="nav-links">
-              <div class="btn btn-primary">asdfasdf</div>
-              <div class="btn btn-primary">asdfasdf</div>
-              <div class="btn btn-primary">asdfasdf</div>
+              <a class="btn bg-primary-1 text-white btn-lg font-14 mr16 border-radius-16" href="mailto:tim.londergan@gmail.com">Request a Demo</a>
+              <a class="btn bg-primary-1 text-white btn-lg font-14 mr16 border-radius-16">Register</a>
+              <a class="btn bg-primary-1 text-white btn-lg font-14 mr16 border-radius-16">Sign In</a>
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
+          <div class="col-5 text-white" style="padding-top: 88px;">
+            <div class="font-24">
+              Enforcing a trade secret requires you <br> have employment and IP assignment <br> agreements executed and up to date.
+              ​<br><br>
+              Do you know where your <br> agreements are?
+            </div>
+            <div class="btn btn-lg btn-ghost-white border-radius-16 mt48">
+              Get Started
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6" style="padding-top: 40px; padding-bottom: 112px;">
+            <img src="img/corporate-artwork.png" />
+          </div>
       </div>
     </div>
   </section>
@@ -129,8 +145,8 @@
       <div class="row">
         <div class="col-9 mt32">
           <div class="bg-lt-grey p16 border-radius-16 d-flex flex-row">
-            <div class="p24 float-left">
-            <img src="img/storage.svg"/>
+            <div>
+            <img src="img/storage.svg" class="mr24" />
             </div>
             <div class="flex-fill">
             <b>Your Choice of Storage</b> <br>
@@ -140,26 +156,40 @@
         </div>
         <div class="col-3 mt32">
           <div class="bg-lt-grey p16 border-radius-16" id="simple-and-fast">
-          <b>Simple and Fast</b><br>
-          Minimize the risk of your competitive advantage walking out the door and landing you in a legal dispute.
+            <img src="img/line-chart.svg" width="48" class="pb16">
+            <br>
+            <b>Simple and Fast</b><br>
+            Minimize the risk of your competitive advantage walking out the door and landing you in a legal dispute.
           </div>
         </div>
         <div class="col-3 mt32">
           <div class="bg-lt-grey p16 border-radius-16" id="keep-your-comp">
-          <b>Keep your competitive edge</b><br>
-          Minimize the risk of your competitive advantage walking out the door and landing you in a legal dispute.
+            <img src="img/solution.svg" width="48" class="pb16">
+            <br>       
+            <b>Controlled Access</b><br>
+            Keep trade secrets in the right hands with simple access controls and role-based security. Users can read, edit or download rights which can expire, automatically, on a certain date.
           </div>
         </div>
         <div class="col-6 mt32">
-          <div class="bg-lt-grey p16 border-radius-16">
-          <b>Keep your competitive edge</b><br>
-          Minimize the risk of your competitive advantage walking out the door and landing you in a legal dispute.
+          <div class="bg-lt-grey p16 border-radius-16 d-flex flex-row">
+            <div>
+              <img src="img/file-search.svg" width="48" class="mr16" />
+            </div>
+            <div class="flex-fill">
+              <b>Identify Assets</b><br>
+              Our intuituve wizard will help you identify trade secrets that should be documented and managed.
+            </div>
           </div>
         </div>
         <div class="col-9 mt32 offset-3">
-          <div class="bg-lt-grey p16 border-radius-16">
-          <b>Track Compliance</b><br>
-          Stay in control of your trade secrets with status dashboards and advanced analytics. Access precise reporting to make informed decisions at speed.
+          <div class="bg-lt-grey p16 border-radius-16 d-flex flex-row" id="track-compliance">
+            <div>
+              <img src="img/file-done.svg" width="48" class="mr16">
+            </div>
+            <div class="flex-fill">
+              <b>Track Compliance</b><br>
+              Stay in control of your trade secrets with status dashboards and advanced analytics. Access precise reporting to make informed decisions at speed.
+            </div>
           </div>
         </div>
       </div>
@@ -225,7 +255,9 @@
     <div class="container">
       <div class="row pt40 pb40">
         <div class="col-12">
-          <center class="font-24 mt64 mb64"><hr class="separator-line">Request a Demo</center>
+          <center class="font-24 mt64 mb64" id="request-demo">
+            <a class="btn btn-lg bg-primary-1 text-white" href="mailto:tim.londergan@gmail.com">Request a Demo</a>
+          </center>
         </div>
       </div>
     </div>

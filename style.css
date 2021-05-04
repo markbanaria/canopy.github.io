@@ -585,6 +585,17 @@ h3 {
   background-color: #EFEFEF;
 }
 
+.btn-ghost-white {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-ghost-white:hover {
+  background-color: rgba(255,255,255,0.12);
+  color: #ffffff;
+}
+
 .separator-line {
   background-color: #2F80ED;
   height: 8px;
@@ -596,11 +607,15 @@ h3 {
 }
 
 #simple-and-fast {
-  height: 248px;
+  height: 221px;
   margin-bottom: -126px;
 }
 
 #keep-your-comp {
-  height: 221px;
-  margin-bottom: -126px;
+  height: 256px;
+  margin-bottom: -163px;
+}
+
+#track-compliance {
+  height: 128px;
 }
