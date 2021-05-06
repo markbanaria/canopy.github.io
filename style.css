@@ -607,15 +607,20 @@ h3 {
 }
 
 #simple-and-fast {
-  height: 221px;
-  margin-bottom: -126px;
-}
+  height: 249px;
+  margin-bottom: -180px;
 
-#keep-your-comp {
-  height: 256px;
-  margin-bottom: -163px;
 }
 
 #track-compliance {
-  height: 128px;
+  height: 243px;
+  margin-top: -61px;
+}
+
+#run-a-process {
+  margin-top: -213px;
+}
+
+#identify-assets {
+  height: 120px;
 }
